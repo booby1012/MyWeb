@@ -515,7 +515,8 @@ textarea {
   input[type="url"]:focus,
   select:focus,
   textarea:focus {
-    border-color: #ce1b28;
+/*    border-color: #ce1b28;*/
+    border-color: gold;
     box-shadow: 0 0 0 1px #ce1b28; }
 
 select {
