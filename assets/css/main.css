@@ -1,9 +1,7 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
 /*
-	Industrious by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+	**MAP SASS 需要先建置RUBY環境 安裝MSYS2
 */
 /* Basic */
 /*color: #ce1b28;*/
@@ -12,7 +10,8 @@
 body {
   -ms-overflow-style: scrollbar; }
 
-@media screen and (max-width: 480px) {
+/* RWD */
+@media screen and (max-width: 480px) { 
   html, body {
     min-width: 320px; } }
 html {
